@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+
+// Code scaffolded by EF Core assumes nullable reference types (NRTs) are not used or disabled.
+// If you have enabled NRTs for your project, then un-comment the following line:
+// #nullable disable
+
+namespace Deloitte.NAA.Data.Entities
+{
+    public partial class FicConsultationControl
+    {
+        public int FicconsultationControlId { get; set; }
+        public string FicconsultationId { get; set; }
+        public string Process { get; set; }
+        public bool? Risk { get; set; }
+        public string RiskReason { get; set; }
+        public bool? Design { get; set; }
+        public bool? Operating { get; set; }
+
+        public virtual FicConsultation Ficconsultation { get; set; }
+    }
+}
