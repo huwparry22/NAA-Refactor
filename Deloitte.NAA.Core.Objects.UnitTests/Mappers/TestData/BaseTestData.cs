@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Deloitte.NAA.Core.Objects.UnitTests.TestData
+namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData
 {
     public class BaseTestData<TObjOne, TObjTwo>
         where TObjOne : class, new()

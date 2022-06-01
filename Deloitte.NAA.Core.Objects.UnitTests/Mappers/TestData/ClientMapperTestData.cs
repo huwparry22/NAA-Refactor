@@ -3,7 +3,7 @@ using Deloitte.NAA.Core.Objects.DTO.Common;
 using System;
 using Xunit;
 
-namespace Deloitte.NAA.Core.Objects.UnitTests.TestData
+namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData
 {
     public class ClientMapperTestData : TheoryData<BaseTestData<Client, ClientDto>>
     {

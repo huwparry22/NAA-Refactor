@@ -1,5 +1,5 @@
 ﻿using Deloitte.NAA.Core.Objects.Interfaces;
-using Deloitte.NAA.Core.Objects.UnitTests.TestData;
+using Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData;
 using FluentAssertions;
 using System;
 using System.Collections.Generic;
