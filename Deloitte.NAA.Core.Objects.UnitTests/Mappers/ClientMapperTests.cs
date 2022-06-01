@@ -3,11 +3,6 @@ using Deloitte.NAA.Core.Objects.DTO.Common;
 using Deloitte.NAA.Core.Objects.Interfaces;
 using Deloitte.NAA.Core.Objects.Mappers;
 using Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers

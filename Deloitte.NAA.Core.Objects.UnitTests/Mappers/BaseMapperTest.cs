@@ -2,10 +2,6 @@
 using Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData;
 using FluentAssertions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers
