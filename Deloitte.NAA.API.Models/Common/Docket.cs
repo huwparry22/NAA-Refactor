@@ -15,5 +15,8 @@ namespace Deloitte.NAA.API.Models.Common
 
         [Required(ErrorMessage = "ChargeCode required")]
         public string ChargeCode { get; set; }
+
+        [Required(ErrorMessage = "MemberFirmName required")]
+        public string MemberFirmName { get; set; }
     }
 }
