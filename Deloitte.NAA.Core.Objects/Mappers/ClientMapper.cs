@@ -25,12 +25,12 @@ namespace Deloitte.NAA.Core.Objects.Mappers
             {
                 ClientDunsNumber = objOne.ClientDunsNumber,
                 ClientName = objOne.ClientName,
-                IsPublicInterestEntity = objOne.IsPublicInterestEntity,
-                IsRelatedToSecRegistrant = objOne.IsRelatedToSecRegistrant,
-                IsSecRegistrant = objOne.IsSecRegistrant,
+                IsPublicInterestEntity = objOne.IsPublicInterestEntity.Value,
+                IsRelatedToSecRegistrant = objOne.IsRelatedToSecRegistrant.Value,
+                IsSecRegistrant = objOne.IsSecRegistrant.Value,
                 MarketListings = objOne.MarketListings,
-                PeriodEnd = objOne.PeriodEnd,
-                RiskRating = _riskRatingMapper.MapTo(objOne.RiskRating),
+                PeriodEnd = objOne.PeriodEnd.Value,
+                RiskRating = _riskRatingMapper.MapTo(objOne.RiskRating.Value),
                 UltimateHoldingCompany = objOne.UltimateHoldingCompany,
                 UltimateHoldingCompanyDunsNumber = objOne.UltimateHoldingCompanyDunsNumber
             };
