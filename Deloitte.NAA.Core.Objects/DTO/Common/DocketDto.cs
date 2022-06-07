@@ -10,7 +10,7 @@ namespace Deloitte.NAA.Core.Objects.DTO.Common
     {
         public int PartnerOfficeId { get; set; }
 
-        public int OperatingUnit { get; set; }
+        public string OperatingUnit { get; set; }
 
         public string ChargeCode { get; set; }
     }
