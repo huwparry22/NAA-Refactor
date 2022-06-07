@@ -1,5 +1,7 @@
 ﻿using Deloitte.NAA.API.Models.Common;
+using Deloitte.NAA.API.Models.Common.Enums;
 using Deloitte.NAA.Core.Objects.DTO.Common;
+using Deloitte.NAA.Core.Objects.DTO.Enums;
 using Deloitte.NAA.Core.Objects.Interfaces;
 using System;
 
@@ -7,6 +9,13 @@ namespace Deloitte.NAA.Core.Objects.Mappers
 {
     public class ClientMapper : IMapper<Client, ClientDto>
     {
+        private readonly IEnumMapper<RiskRating, RiskRatingDto> _riskRatingMapper;
+
+        public ClientMapper(IEnumMapper<RiskRating, RiskRatingDto> riskRatingMapper)
+        {
+            _riskRatingMapper = riskRatingMapper;
+        }
+
         public ClientDto MapTo(Client objOne)
         {
             if (objOne == null)
@@ -21,7 +30,7 @@ namespace Deloitte.NAA.Core.Objects.Mappers
                 IsSecRegistrant = objOne.IsSecRegistrant,
                 MarketListings = objOne.MarketListings,
                 PeriodEnd = objOne.PeriodEnd,
-                //RiskRating = objOne.RiskRating,
+                RiskRating = _riskRatingMapper.MapTo(objOne.RiskRating),
                 UltimateHoldingCompany = objOne.UltimateHoldingCompany,
                 UltimateHoldingCompanyDunsNumber = objOne.UltimateHoldingCompanyDunsNumber
             };
@@ -41,7 +50,7 @@ namespace Deloitte.NAA.Core.Objects.Mappers
                 IsSecRegistrant = objTwo.IsSecRegistrant,
                 MarketListings = objTwo.MarketListings,
                 PeriodEnd = objTwo.PeriodEnd,
-                //RiskRating = objTwo.RiskRating,
+                RiskRating = _riskRatingMapper.MapTo(objTwo.RiskRating),
                 UltimateHoldingCompany = objTwo.UltimateHoldingCompany,
                 UltimateHoldingCompanyDunsNumber = objTwo.UltimateHoldingCompanyDunsNumber
             };
