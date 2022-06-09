@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData
+﻿namespace Deloitte.NAA.UnitTests.Common.TestData
 {
     public class BaseEnumTestData<TEnumOne, TEnumTwo>
         where TEnumOne : struct, IConvertible

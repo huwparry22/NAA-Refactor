@@ -1,5 +1,6 @@
 ﻿using Deloitte.NAA.API.Models.Common.Enums;
 using Deloitte.NAA.Core.Objects.DTO.Enums;
+using Deloitte.NAA.UnitTests.Common.TestData;
 using Xunit;
 
 namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData

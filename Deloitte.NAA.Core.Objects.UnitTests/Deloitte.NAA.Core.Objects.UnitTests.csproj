@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Deloitte.NAA.Core.Objects\Deloitte.NAA.Core.Objects.csproj" />
+    <ProjectReference Include="..\Deloitte.NAA.UnitTests.Common\Deloitte.NAA.UnitTests.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>

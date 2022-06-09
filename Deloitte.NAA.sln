@@ -33,6 +33,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deloitte.NAA.Core.Objects.U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deloitte.NAA.API.UnitTests", "Deloitte.NAA.API.UnitTests\Deloitte.NAA.API.UnitTests.csproj", "{DDF2E8FB-A4F5-4C24-85BC-5DDCE8793481}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deloitte.NAA.UnitTests.Common", "Deloitte.NAA.UnitTests.Common\Deloitte.NAA.UnitTests.Common.csproj", "{63AA3AFD-5AB0-475E-B9CC-0D5592F5EBF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,10 @@ Global
 		{DDF2E8FB-A4F5-4C24-85BC-5DDCE8793481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF2E8FB-A4F5-4C24-85BC-5DDCE8793481}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF2E8FB-A4F5-4C24-85BC-5DDCE8793481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AA3AFD-5AB0-475E-B9CC-0D5592F5EBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AA3AFD-5AB0-475E-B9CC-0D5592F5EBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AA3AFD-5AB0-475E-B9CC-0D5592F5EBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AA3AFD-5AB0-475E-B9CC-0D5592F5EBF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
