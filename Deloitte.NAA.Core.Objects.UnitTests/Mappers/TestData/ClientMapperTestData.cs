@@ -1,10 +1,11 @@
 ﻿using Deloitte.NAA.API.Models.Common;
 using Deloitte.NAA.Core.Objects.DTO.Common;
+using Deloitte.NAA.Core.Objects.DTO.Enums;
 using Deloitte.NAA.UnitTests.Common.TestData;
 using System;
 using Xunit;
 
-namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData
+namespace Deloitte.NAA.Core.UnitTests.Mappers.TestData
 {
     public class ClientMapperTestData : TheoryData<BaseTestData<Client, ClientDto>>
     {
@@ -37,7 +38,7 @@ namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData
                         IsSecRegistrant = true,
                         MarketListings = "testMarketListings",
                         PeriodEnd = now,
-                        RiskRating = DTO.Enums.RiskRatingDto.Normal,
+                        RiskRating = RiskRatingDto.Normal,
                         UltimateHoldingCompany = "testUltimateHoldingCompany",
                         UltimateHoldingCompanyDunsNumber = "testUltimateHoldingCompanyDunsNumber"
                     }

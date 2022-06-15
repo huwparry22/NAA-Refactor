@@ -1,11 +1,11 @@
 ﻿using Deloitte.NAA.API.Models.Common;
 using Deloitte.NAA.API.Models.Common.Enums;
+using Deloitte.NAA.Core.Interfaces;
 using Deloitte.NAA.Core.Objects.DTO.Common;
 using Deloitte.NAA.Core.Objects.DTO.Enums;
-using Deloitte.NAA.Core.Objects.Interfaces;
 using System;
 
-namespace Deloitte.NAA.Core.Objects.Mappers
+namespace Deloitte.NAA.Core.Mappers
 {
     public class ClientMapper : IMapper<Client, ClientDto>
     {

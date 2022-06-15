@@ -3,7 +3,7 @@ using Deloitte.NAA.Core.Objects.DTO.Enums;
 using Deloitte.NAA.UnitTests.Common.TestData;
 using Xunit;
 
-namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData
+namespace Deloitte.NAA.Core.UnitTests.Mappers.TestData
 {
     public class RiskRatingMapperTestData : TheoryData<BaseEnumTestData<RiskRating, RiskRatingDto>>
     {

@@ -9,7 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\Deloitte.NAA.API.Models\Deloitte.NAA.API.Models.csproj" />
+    <ProjectReference Include="..\Deloitte.NAA.Core.Objects\Deloitte.NAA.Core.Objects.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Deloitte.NAA.Core.Objects.Interfaces
+namespace Deloitte.NAA.Core.Interfaces
 {
     public interface IEnumMapper<TEnumOne, TEnumTwo>
         where TEnumOne : struct, IConvertible

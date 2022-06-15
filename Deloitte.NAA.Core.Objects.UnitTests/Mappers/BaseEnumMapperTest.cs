@@ -1,10 +1,10 @@
-﻿using Deloitte.NAA.Core.Objects.Interfaces;
+﻿using Deloitte.NAA.Core.Interfaces;
 using Deloitte.NAA.UnitTests.Common.TestData;
 using FluentAssertions;
 using System;
 using Xunit;
 
-namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers
+namespace Deloitte.NAA.Core.UnitTests.Mappers
 {
     public abstract class BaseEnumMapperTest<TEnumOne, TEnumTwo>
         where TEnumOne : struct, IConvertible

@@ -29,11 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deloitte.NAA.API", "Deloitt
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deloitte.NAA.Core.Objects", "Deloitte.NAA.Core.Objects\Deloitte.NAA.Core.Objects.csproj", "{817865DB-EB2D-4095-82C0-5968D83CEE11}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deloitte.NAA.Core.Objects.UnitTests", "Deloitte.NAA.Core.Objects.UnitTests\Deloitte.NAA.Core.Objects.UnitTests.csproj", "{79B8B0D0-EACE-4DEE-9255-174F09BDF485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deloitte.NAA.Core.UnitTests", "Deloitte.NAA.Core.Objects.UnitTests\Deloitte.NAA.Core.UnitTests.csproj", "{79B8B0D0-EACE-4DEE-9255-174F09BDF485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deloitte.NAA.API.UnitTests", "Deloitte.NAA.API.UnitTests\Deloitte.NAA.API.UnitTests.csproj", "{DDF2E8FB-A4F5-4C24-85BC-5DDCE8793481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deloitte.NAA.API.UnitTests", "Deloitte.NAA.API.UnitTests\Deloitte.NAA.API.UnitTests.csproj", "{DDF2E8FB-A4F5-4C24-85BC-5DDCE8793481}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deloitte.NAA.UnitTests.Common", "Deloitte.NAA.UnitTests.Common\Deloitte.NAA.UnitTests.Common.csproj", "{63AA3AFD-5AB0-475E-B9CC-0D5592F5EBF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deloitte.NAA.UnitTests.Common", "Deloitte.NAA.UnitTests.Common\Deloitte.NAA.UnitTests.Common.csproj", "{63AA3AFD-5AB0-475E-B9CC-0D5592F5EBF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

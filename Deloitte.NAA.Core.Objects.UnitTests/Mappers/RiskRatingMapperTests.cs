@@ -1,12 +1,12 @@
 ﻿using Deloitte.NAA.API.Models.Common.Enums;
 using Deloitte.NAA.Core.Objects.DTO.Enums;
-using Deloitte.NAA.Core.Objects.Interfaces;
-using Deloitte.NAA.Core.Objects.Mappers;
-using Deloitte.NAA.Core.Objects.UnitTests.Mappers.TestData;
+using Deloitte.NAA.Core.Interfaces;
+using Deloitte.NAA.Core.Mappers;
+using Deloitte.NAA.Core.UnitTests.Mappers.TestData;
 using Deloitte.NAA.UnitTests.Common.TestData;
 using Xunit;
 
-namespace Deloitte.NAA.Core.Objects.UnitTests.Mappers
+namespace Deloitte.NAA.Core.UnitTests.Mappers
 {
     public class RiskRatingMapperTests : BaseEnumMapperTest<RiskRating, RiskRatingDto>
     {
