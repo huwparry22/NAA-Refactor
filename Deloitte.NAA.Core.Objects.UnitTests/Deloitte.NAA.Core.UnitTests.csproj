@@ -28,8 +28,4 @@
     <ProjectReference Include="..\Deloitte.NAA.UnitTests.Common\Deloitte.NAA.UnitTests.Common.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
-
 </Project>
