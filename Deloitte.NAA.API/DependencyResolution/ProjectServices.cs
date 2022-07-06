@@ -30,6 +30,7 @@ namespace Microsoft.Extensions.DependencyInjection
 
             services.AddTransient<IValidator<Request<DocketCreateRequest>>, DocketCreateValidation>();
             services.AddTransient<IValidator<Docket>, DocketValidation>();
+            services.AddTransient<IValidator<Client>, ClientValidation>();
 
             services.AddTransient<IValidationResultMapper, ValidationResultMapper>();
         }

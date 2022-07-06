@@ -12,8 +12,9 @@ namespace Deloitte.NAA.API.Validation.Docket
 {
     public class DocketCreateValidation : AbstractValidator<Request<DocketCreateRequest>>
     {
-        public DocketCreateValidation(IValidator<Models.Common.Docket> docketValidator)
+        public DocketCreateValidation(IValidator<Models.Common.Client> clientValidator, IValidator<Models.Common.Docket> docketValidator)
         {
+            RuleFor(req => req.RequestData.Docket.Client).SetValidator(clientValidator);
             RuleFor(req => req.RequestData.Docket).SetValidator(docketValidator);
         }
     }
